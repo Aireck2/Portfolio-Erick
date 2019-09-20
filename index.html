@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Title -->
+    <title>Erick - Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/faviElogo.svg" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Top Search Form Area -->
+    <div class="top-search-area">
+        <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <!-- Close -->
+                        <button type="button" class="btn close-btn" data-dismiss="modal">
+                            <i class="ti-close"></i>
+                        </button>
+                        <!-- Form -->
+                        <form action="index.html" method="post">
+                            <input type="search" name="top-search-bar" class="form-control"
+                                placeholder="Search and hit enter..." />
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <!-- Main Header Start -->
+        <div class="main-header-area">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alimeNav">
+                        <!-- Logo -->
+                        <a class="nav-brand" href="./index.html"><img src="./img/core-img/LogoE2.svg" alt="" /></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+                            <!-- Menu Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap">
+                                    <span class="top"></span><span class="bottom"></span>
+                                </div>
+                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li class="active"><a href="./index.html">Home</a></li>
+                                    <li><a href="./work.html">Work</a></li>
+                                    <li><a href="./about.html">About</a></li>
+
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <div class="search-icon" data-toggle="modal" data-target="#searchModal">
+                                    <i class="ti-search"></i>
+                                </div>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Welcome Area Start -->
+    <section class="welcome-area">
+        <div class="welcome-slides owl-carousel">
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/core-img/banner.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <!-- Welcome Text -->
+                        <div class="col-12 col-lg-8 col-xl-6">
+                            <div class="welcome-text">
+                                <h2 data-animation="bounceInDown" data-delay="900ms">
+                                    Hi, <br />I'm Erick
+                                </h2>
+                                <p data-animation="bounceInDown" data-delay="500ms">
+                                    Front-end Developer</p>
+                                <div class="social">
+                                    <a class="white" href="https://github.com/Aireck2">
+                                        <i class="fa fa-github fa-2x"></i>
+                                    </a>
+                                    <a class="white" href="https://www.linkedin.com/in/erick-escriba-arango/">
+                                        <i class="fa fa-linkedin fa-2x"></i>
+                                    </a>
+                                </div>
+
+
+                                <div class="hero-btn-group" data-animation="bounceInDown" data-delay="100ms">
+                                    <a href="contact.html" class="btn alime-btn mb-3 mb-sm-0 mr-4">Contact me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Slide -->
+        </div>
+    </section>
+    <!-- Welcome Area End -->
+
+    <!-- Gallery Area Start -->
+    <div class="alime-portfolio-area section-padding-80 clearfix">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Projects Menu -->
+                    <div class="alime-projects-menu">
+                        <div class="portfolio-menu text-center">
+                            <button class="btn active" data-filter="*">All</button>
+                            <button class="btn" data-filter=".human">Responsive Web</button>
+                            <button class="btn" data-filter=".nature">
+                                Not responsive
+                            </button>
+                            <button class="btn" data-filter=".country">Using BEMIT</button>
+                            <!--    <button class="btn" data-filter=".video">Video</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row alime-portfolio">
+                <!-- Single Gallery Item -->
+                <a href="https://aireck2.github.io/RevexProject/">
+                    <div class="col-12 col-md-6  col-lg-6 single_gallery_item human country mb-30 wow fadeInUp"
+                        data-wow-delay="100ms">
+                        <div class="single-portfolio-content">
+                            <img src="img/worksImages/Revex.jpg" alt="revex" />
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Single Gallery Item -->
+                <a href="https://aireck2.github.io/BBC/">
+                    <div class="col-12 col-md-6 col-lg-6 single_gallery_item video nature mb-30 wow fadeInUp"
+                        data-wow-delay="300ms">
+                        <div class="single-portfolio-content">
+                            <img src="img/worksImages/BBC.jpg" alt="BBC-bg" />
+
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Single Gallery Item -->
+                <a href="">
+                    <div class="col-12 col-md-6 col-lg-6 single_gallery_item nature mb-30 wow fadeInUp"
+                        data-wow-delay="500ms">
+                        <div class="single-portfolio-content">
+                            <img src="img/worksImages/GOLive.jpg" alt="GOLive" />
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Single Gallery Item -->
+                <a href="">
+                    <div class="col-12 col-md-6 col-lg-6 single_gallery_item nature mb-30 wow fadeInUp"
+                        data-wow-delay="700ms">
+                        <div class="single-portfolio-content">
+                            <img src="img/worksImages/Kamanqa.jpg" alt="Kamanqa" />
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="col-12 col-md-6 col-lg-6 single_gallery_item nature mb-30 wow fadeInUp"
+                        data-wow-delay="100ms">
+                        <div class="single-portfolio-content">
+                            <img src="img/worksImages/Laboratoria.jpg" alt="Laboratoria" />
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Single Gallery Item -->
+
+                <!-- Single Gallery Item -->
+                <a href="">
+                    <div class="col-12 col-md-6 col-lg-6 single_gallery_item video human country mb-30 wow fadeInUp"
+                        data-wow-delay="300ms">
+                        <div class="single-portfolio-content">
+                            <img src="img/worksImages/Swatch2.gif" alt="Swatch-bg" />
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Single Gallery Item -->
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms">
+                    <a href="work.html" class="btn alime-btn btn-2 mt-15">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Area End -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content d-flex align-items-center justify-content-between">
+                        <!-- Copywrite Text -->
+                        <div class="copywrite-text">
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                All rights reserved | This template is made with
+                                <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                        <!-- Footer Logo -->
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/core-img/logo2.png" alt="" /></a>
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+
+                            <a class="white" href="https://www.linkedin.com/in/erick-escriba-arango/">
+                                <i class="fa fa-linkedin fa-2x"></i>
+                            </a>
+
+                            <a class="white" href="https://github.com/Aireck2">
+                                <i class="fa fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/alime.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+</body>
+
+</html>

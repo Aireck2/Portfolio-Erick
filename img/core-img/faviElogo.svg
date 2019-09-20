@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00a0a0;
+      }
+    </style>
+  </defs>
+  <rect id="Rectángulo_1" data-name="Rectángulo 1" x="2" y="2" width="29" height="8"/>
+  <rect id="Rectángulo_2" data-name="Rectángulo 2" x="2" y="34" width="30" height="8"/>
+  <rect id="Rectángulo_3" data-name="Rectángulo 3" x="2" y="10" width="8" height="24"/>
+  <rect id="Rectángulo_4" data-name="Rectángulo 4" x="10" y="18" width="19" height="8"/>
+  <rect id="Rectángulo_5" data-name="Rectángulo 5" class="cls-1" x="36" y="34" width="8" height="8"/>
+</svg>
