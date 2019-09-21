@@ -1167,6 +1167,28 @@ input:required {
   z-index: 1;
   margin-top: 50px;
 }
+.why-choose-us-area{
+  padding-bottom: 80px;
+}
+.why-choose-us-area .skills {
+  display: flex;
+ 
+}
+.why-choose-us-area .skills img {
+  width: calc(100% - 40px);
+  -webkit-filter: grayscale(100%) opacity(0.5);
+    filter: grayscale(100%) opacity(0.5);
+    transition: 0.3s ease;
+}
+.why-choose-us-area .skills img:hover{
+  filter: none;
+  cursor: pointer;
+}
+.why-choose-us-area .skills li{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
 .why-choose-us-content .chosse-us-icon {
   -webkit-transition-duration: 800ms;
   -o-transition-duration: 800ms;
