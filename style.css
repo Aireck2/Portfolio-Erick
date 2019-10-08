@@ -323,7 +323,7 @@ input:required {
 
 .section-padding-80 {
   padding-top: 80px;
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 .section-padding-0-80 {
@@ -2034,16 +2034,23 @@ input:required {
   z-index: 10;
   display: flex;
   justify-content: flex-start;
-  align-items: center;  
+  align-items: flex-start;
+  padding-top: 110px;  
 }
 .single-portfolio-content .hover-content h4,
 .single-portfolio-content .hover-content p{
   color: #ffffff;
-  padding-left: 50px;
-  font-size: 50px;
+  padding-left: 40px;
+  font-size: 40px;
+}
+.single-portfolio-content .hover-content img{
+  width: 180px;
 }
 .single-portfolio-content .hover-content p{
   font-size: 20px;
+}
+.single-portfolio-content .hover-content p.gray-text{
+  color: #252525;
 }
 .single-portfolio-content .hover-content a {
   position: absolute;
@@ -2066,8 +2073,8 @@ input:required {
 .single-portfolio-content .hover-content a:focus {
   background-color: #000000;
 }
-.single-portfolio-content:hover img,
-.single-portfolio-content:focus img {
+.single-portfolio-content:hover .scale,
+.single-portfolio-content:focus .scale {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
@@ -2080,7 +2087,10 @@ input:required {
 .single-portfolio-content:focus .hover-content a {
   margin-top: -26px;
 }
-
+.alime-portfolio .padding-off {
+  padding-right: 0;
+  padding-left: 0;
+}
 /* :: 16.0 Contact CSS */
 .alime-contact-form .form-control {
   -webkit-transition-duration: 500ms;
@@ -2141,3 +2151,4 @@ input:required {
 }
 
 /*# sourceMappingURL=style.css.map */
+
