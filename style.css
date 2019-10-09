@@ -325,6 +325,9 @@ input:required {
   padding-top: 80px;
   /* padding-bottom: 80px; */
 }
+.section-padding-50 {
+  padding-top: 50px;
+}
 
 .section-padding-0-80 {
   padding-top: 0;
@@ -337,8 +340,8 @@ input:required {
 }
 
 .section-padding-80-50 {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 .section-padding-100 {
@@ -445,15 +448,18 @@ input:required {
   margin-bottom: 50px;
 }
 .section-heading h2 {
-  font-size: 36px;
+  font-size: 30px;
   text-transform: capitalize;
   margin-bottom: 5px;
   display: block;
   line-height: 1.2;
 }
+.section-heading .title {
+  font-size: 36px;
+}
 @media only screen and (max-width: 767px) {
   .section-heading h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 .section-heading p {
@@ -1051,13 +1057,13 @@ input:required {
 
 /* :: 11.0 About CSS */
 .about-us-content h3 {
-  font-size: 36px;
+  font-size: 30px;
   display: block;
   margin-bottom: 5px;
 }
 @media only screen and (max-width: 767px) {
   .about-us-content h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 .about-us-content .line {
@@ -1169,18 +1175,20 @@ input:required {
   margin-top: 50px;
 }
 .why-choose-us-area{
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 }
 .why-choose-us-area .skills {
   display: flex;
+  justify-content: center;
  
 }
 .why-choose-us-area .skills img {
-  width: calc(100% - 40px);
+  width: 100% ;
   -webkit-filter: grayscale(100%) opacity(0.5);
     filter: grayscale(100%) opacity(0.5);
     transition: 0.3s ease;
 }
+
 .why-choose-us-area .skills img:hover{
   filter: none;
   cursor: pointer;
@@ -2040,9 +2048,10 @@ input:required {
 .single-portfolio-content .hover-content h4,
 .single-portfolio-content .hover-content p{
   color: #ffffff;
-  padding-left: 40px;
-  font-size: 40px;
+  padding-left: 30px;
+  font-size: 35px;
 }
+
 .single-portfolio-content .hover-content img{
   width: 180px;
 }
@@ -2078,6 +2087,33 @@ input:required {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
+}
+@media only screen and (max-width: 991px){
+  .single-portfolio-content .hover-content h4{
+    font-size: 24px;
+  }
+  .single-portfolio-content .hover-content p{
+    font-size: 14px;
+  }
+  .single-portfolio-content .hover-content h4 img{
+    width: 100px;
+  }
+  .single-portfolio-content .hover-content{
+    padding-top: 70px;
+  }
+
+}
+@media only screen and (max-width: 400px){
+  .single-portfolio-content .hover-content h4{
+    font-size: 20px;
+  }
+  .single-portfolio-content .hover-content p{
+    font-size: 14px;
+  }
+  .single-portfolio-content .hover-content .scale{
+    width: 100px;
+  }
+
 }
 .single-portfolio-content:hover .hover-content,
 .single-portfolio-content:focus .hover-content {
